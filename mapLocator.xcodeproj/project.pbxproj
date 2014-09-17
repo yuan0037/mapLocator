@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00EFB7919849A6C00075C81 /* MLLocationListViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04D86A01984681F0086F976 /* MLLocationListViewControllerTests.m */; };
+		B00EFB7A19849A7000075C81 /* LocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04D869E198464650086F976 /* LocationTests.m */; };
+		B00EFB7B19849ABD00075C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0447DE519816E1700BDA029 /* Main.storyboard */; };
+		B00EFB7D19858FFC00075C81 /* MLLocationMapViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B00EFB7C19858FFC00075C81 /* MLLocationMapViewControllerTests.m */; };
+		B00EFB7F19859EBB00075C81 /* MLCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B00EFB7E19859EBB00075C81 /* MLCoreDataTests.m */; };
+		B00EFB811985AA6200075C81 /* MLLocationEditorViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B00EFB801985AA6200075C81 /* MLLocationEditorViewControllerTests.m */; };
+		B0284CD5198496760003EF36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0447DF519816E1700BDA029 /* XCTest.framework */; };
+		B0284CD6198496760003EF36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0447DD319816E1700BDA029 /* Foundation.framework */; };
+		B0284CD7198496760003EF36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0447DD719816E1700BDA029 /* UIKit.framework */; };
+		B0284CDD198496760003EF36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0284CDB198496760003EF36 /* InfoPlist.strings */; };
+		B0284CDF198496760003EF36 /* mapLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0284CDE198496760003EF36 /* mapLocatorTests.m */; };
+		B0447DD419816E1700BDA029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0447DD319816E1700BDA029 /* Foundation.framework */; };
+		B0447DD619816E1700BDA029 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0447DD519816E1700BDA029 /* CoreGraphics.framework */; };
+		B0447DD819816E1700BDA029 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0447DD719816E1700BDA029 /* UIKit.framework */; };
+		B0447DDE19816E1700BDA029 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0447DDC19816E1700BDA029 /* InfoPlist.strings */; };
+		B0447DE019816E1700BDA029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0447DDF19816E1700BDA029 /* main.m */; };
+		B0447DE419816E1700BDA029 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0447DE319816E1700BDA029 /* MLAppDelegate.m */; };
+		B0447DE719816E1700BDA029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0447DE519816E1700BDA029 /* Main.storyboard */; };
+		B0447DEA19816E1700BDA029 /* MLLocationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0447DE919816E1700BDA029 /* MLLocationListViewController.m */; };
+		B0447DEF19816E1700BDA029 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0447DEE19816E1700BDA029 /* Images.xcassets */; };
+		B0447E0C19816E2700BDA029 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0447E0B19816E2700BDA029 /* CoreData.framework */; };
+		B04D869B198408C40086F976 /* chat_24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = B04D869A198408C40086F976 /* chat_24x24.png */; };
+		B04D869D198409420086F976 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04D869C198409420086F976 /* MessageUI.framework */; };
+		B07F1329198178AB0071A653 /* MLLocationMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07F1328198178AB0071A653 /* MLLocationMapViewController.m */; };
+		B07F133119817BDE0071A653 /* MLData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B07F132F19817BDE0071A653 /* MLData.xcdatamodeld */; };
+		B07F133419817C8A0071A653 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07F133319817C8A0071A653 /* MapKit.framework */; };
+		B07F13371981AD040071A653 /* MLLocationEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07F13361981AD040071A653 /* MLLocationEditorViewController.m */; };
+		B07F133E1981B9C20071A653 /* tick_24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = B07F133D1981B9C20071A653 /* tick_24x24.png */; };
+		B07F134A1981F8600071A653 /* MLLocationViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07F13491981F8600071A653 /* MLLocationViewerViewController.m */; };
+		B07F139A198205280071A653 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B07F1399198205280071A653 /* Location.m */; };
+		B0F0443D19869F2B002E52FE /* MLLocationViewerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0443C19869F2B002E52FE /* MLLocationViewerViewControllerTests.m */; };
+		B0F044401986B282002E52FE /* MLLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0443F1986B282002E52FE /* MLLocations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0284CE1198496760003EF36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0447DC819816E1700BDA029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0447DCF19816E1700BDA029;
+			remoteInfo = mapLocator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00EFB7C19858FFC00075C81 /* MLLocationMapViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLocationMapViewControllerTests.m; sourceTree = "<group>"; };
+		B00EFB7E19859EBB00075C81 /* MLCoreDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCoreDataTests.m; sourceTree = "<group>"; };
+		B00EFB801985AA6200075C81 /* MLLocationEditorViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLocationEditorViewControllerTests.m; sourceTree = "<group>"; };
+		B0284CD4198496750003EF36 /* mapLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0284CDA198496760003EF36 /* mapLocatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mapLocatorTests-Info.plist"; sourceTree = "<group>"; };
+		B0284CDC198496760003EF36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0284CDE198496760003EF36 /* mapLocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapLocatorTests.m; sourceTree = "<group>"; };
+		B0284CE0198496760003EF36 /* mapLocatorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mapLocatorTests-Prefix.pch"; sourceTree = "<group>"; };
+		B0447DD019816E1700BDA029 /* mapLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0447DD319816E1700BDA029 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0447DD519816E1700BDA029 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0447DD719816E1700BDA029 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0447DDB19816E1700BDA029 /* mapLocator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mapLocator-Info.plist"; sourceTree = "<group>"; };
+		B0447DDD19816E1700BDA029 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0447DDF19816E1700BDA029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0447DE119816E1700BDA029 /* mapLocator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mapLocator-Prefix.pch"; sourceTree = "<group>"; };
+		B0447DE219816E1700BDA029 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		B0447DE319816E1700BDA029 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		B0447DE619816E1700BDA029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0447DE819816E1700BDA029 /* MLLocationListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLLocationListViewController.h; sourceTree = "<group>"; };
+		B0447DE919816E1700BDA029 /* MLLocationListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLLocationListViewController.m; sourceTree = "<group>"; };
+		B0447DEE19816E1700BDA029 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0447DF519816E1700BDA029 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B0447E0B19816E2700BDA029 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B04D869A198408C40086F976 /* chat_24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_24x24.png; sourceTree = "<group>"; };
+		B04D869C198409420086F976 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B04D869E198464650086F976 /* LocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationTests.m; path = mapLocatorTests/LocationTests.m; sourceTree = SOURCE_ROOT; };
+		B04D86A01984681F0086F976 /* MLLocationListViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLLocationListViewControllerTests.m; path = mapLocatorTests/MLLocationListViewControllerTests.m; sourceTree = SOURCE_ROOT; };
+		B07F1327198178AB0071A653 /* MLLocationMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLocationMapViewController.h; sourceTree = "<group>"; };
+		B07F1328198178AB0071A653 /* MLLocationMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLocationMapViewController.m; sourceTree = "<group>"; };
+		B07F133019817BDE0071A653 /* MLData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MLData.xcdatamodel; sourceTree = "<group>"; };
+		B07F133319817C8A0071A653 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B07F13351981AD040071A653 /* MLLocationEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLocationEditorViewController.h; sourceTree = "<group>"; };
+		B07F13361981AD040071A653 /* MLLocationEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLocationEditorViewController.m; sourceTree = "<group>"; };
+		B07F133D1981B9C20071A653 /* tick_24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick_24x24.png; sourceTree = "<group>"; };
+		B07F13481981F8600071A653 /* MLLocationViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLocationViewerViewController.h; sourceTree = "<group>"; };
+		B07F13491981F8600071A653 /* MLLocationViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLocationViewerViewController.m; sourceTree = "<group>"; };
+		B07F1398198205280071A653 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		B07F1399198205280071A653 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		B0F0443C19869F2B002E52FE /* MLLocationViewerViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLocationViewerViewControllerTests.m; sourceTree = "<group>"; };
+		B0F0443E1986B282002E52FE /* MLLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLocations.h; sourceTree = "<group>"; };
+		B0F0443F1986B282002E52FE /* MLLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLocations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0284CD1198496750003EF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0284CD5198496760003EF36 /* XCTest.framework in Frameworks */,
+				B0284CD7198496760003EF36 /* UIKit.framework in Frameworks */,
+				B0284CD6198496760003EF36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0447DCD19816E1700BDA029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04D869D198409420086F976 /* MessageUI.framework in Frameworks */,
+				B07F133419817C8A0071A653 /* MapKit.framework in Frameworks */,
+				B0447E0C19816E2700BDA029 /* CoreData.framework in Frameworks */,
+				B0447DD619816E1700BDA029 /* CoreGraphics.framework in Frameworks */,
+				B0447DD819816E1700BDA029 /* UIKit.framework in Frameworks */,
+				B0447DD419816E1700BDA029 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0284CD8198496760003EF36 /* mapLocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00EFB7E19859EBB00075C81 /* MLCoreDataTests.m */,
+				B04D869E198464650086F976 /* LocationTests.m */,
+				B00EFB801985AA6200075C81 /* MLLocationEditorViewControllerTests.m */,
+				B0F0443C19869F2B002E52FE /* MLLocationViewerViewControllerTests.m */,
+				B04D86A01984681F0086F976 /* MLLocationListViewControllerTests.m */,
+				B00EFB7C19858FFC00075C81 /* MLLocationMapViewControllerTests.m */,
+				B0284CDE198496760003EF36 /* mapLocatorTests.m */,
+				B0284CD9198496760003EF36 /* Supporting Files */,
+			);
+			path = mapLocatorTests;
+			sourceTree = "<group>";
+		};
+		B0284CD9198496760003EF36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0284CDA198496760003EF36 /* mapLocatorTests-Info.plist */,
+				B0284CDB198496760003EF36 /* InfoPlist.strings */,
+				B0284CE0198496760003EF36 /* mapLocatorTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0447DC719816E1700BDA029 = {
+			isa = PBXGroup;
+			children = (
+				B07F133C1981B66E0071A653 /* MPIcons */,
+				B0447DD919816E1700BDA029 /* mapLocator */,
+				B0284CD8198496760003EF36 /* mapLocatorTests */,
+				B0447DD219816E1700BDA029 /* Frameworks */,
+				B0447DD119816E1700BDA029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0447DD119816E1700BDA029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0447DD019816E1700BDA029 /* mapLocator.app */,
+				B0284CD4198496750003EF36 /* mapLocatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0447DD219816E1700BDA029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B04D869C198409420086F976 /* MessageUI.framework */,
+				B07F133319817C8A0071A653 /* MapKit.framework */,
+				B0447E0B19816E2700BDA029 /* CoreData.framework */,
+				B0447DD319816E1700BDA029 /* Foundation.framework */,
+				B0447DD519816E1700BDA029 /* CoreGraphics.framework */,
+				B0447DD719816E1700BDA029 /* UIKit.framework */,
+				B0447DF519816E1700BDA029 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0447DD919816E1700BDA029 /* mapLocator */ = {
+			isa = PBXGroup;
+			children = (
+				B07F13971982034D0071A653 /* custom object models */,
+				B07F1396198202AE0071A653 /* core data models */,
+				B0447DE219816E1700BDA029 /* MLAppDelegate.h */,
+				B0447DE319816E1700BDA029 /* MLAppDelegate.m */,
+				B0447DE519816E1700BDA029 /* Main.storyboard */,
+				B07F13351981AD040071A653 /* MLLocationEditorViewController.h */,
+				B07F13361981AD040071A653 /* MLLocationEditorViewController.m */,
+				B07F13481981F8600071A653 /* MLLocationViewerViewController.h */,
+				B07F13491981F8600071A653 /* MLLocationViewerViewController.m */,
+				B0447DE819816E1700BDA029 /* MLLocationListViewController.h */,
+				B0447DE919816E1700BDA029 /* MLLocationListViewController.m */,
+				B07F1327198178AB0071A653 /* MLLocationMapViewController.h */,
+				B07F1328198178AB0071A653 /* MLLocationMapViewController.m */,
+				B0447DEE19816E1700BDA029 /* Images.xcassets */,
+				B0447DDA19816E1700BDA029 /* Supporting Files */,
+			);
+			path = mapLocator;
+			sourceTree = "<group>";
+		};
+		B0447DDA19816E1700BDA029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0447DDB19816E1700BDA029 /* mapLocator-Info.plist */,
+				B0447DDC19816E1700BDA029 /* InfoPlist.strings */,
+				B0447DDF19816E1700BDA029 /* main.m */,
+				B0447DE119816E1700BDA029 /* mapLocator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B07F133C1981B66E0071A653 /* MPIcons */ = {
+			isa = PBXGroup;
+			children = (
+				B04D869A198408C40086F976 /* chat_24x24.png */,
+				B07F133D1981B9C20071A653 /* tick_24x24.png */,
+			);
+			name = MPIcons;
+			sourceTree = "<group>";
+		};
+		B07F1396198202AE0071A653 /* core data models */ = {
+			isa = PBXGroup;
+			children = (
+				B07F132F19817BDE0071A653 /* MLData.xcdatamodeld */,
+				B0F0443E1986B282002E52FE /* MLLocations.h */,
+				B0F0443F1986B282002E52FE /* MLLocations.m */,
+			);
+			name = "core data models";
+			sourceTree = "<group>";
+		};
+		B07F13971982034D0071A653 /* custom object models */ = {
+			isa = PBXGroup;
+			children = (
+				B07F1398198205280071A653 /* Location.h */,
+				B07F1399198205280071A653 /* Location.m */,
+			);
+			name = "custom object models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0284CD3198496750003EF36 /* mapLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0284CE3198496760003EF36 /* Build configuration list for PBXNativeTarget "mapLocatorTests" */;
+			buildPhases = (
+				B0284CD0198496750003EF36 /* Sources */,
+				B0284CD1198496750003EF36 /* Frameworks */,
+				B0284CD2198496750003EF36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0284CE2198496760003EF36 /* PBXTargetDependency */,
+			);
+			name = mapLocatorTests;
+			productName = mapLocatorTests;
+			productReference = B0284CD4198496750003EF36 /* mapLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0447DCF19816E1700BDA029 /* mapLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0447E0519816E1700BDA029 /* Build configuration list for PBXNativeTarget "mapLocator" */;
+			buildPhases = (
+				B0447DCC19816E1700BDA029 /* Sources */,
+				B0447DCD19816E1700BDA029 /* Frameworks */,
+				B0447DCE19816E1700BDA029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mapLocator;
+			productName = mapLocator;
+			productReference = B0447DD019816E1700BDA029 /* mapLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0447DC819816E1700BDA029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ML;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = boyuan;
+				TargetAttributes = {
+					B0284CD3198496750003EF36 = {
+						TestTargetID = B0447DCF19816E1700BDA029;
+					};
+				};
+			};
+			buildConfigurationList = B0447DCB19816E1700BDA029 /* Build configuration list for PBXProject "mapLocator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0447DC719816E1700BDA029;
+			productRefGroup = B0447DD119816E1700BDA029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0447DCF19816E1700BDA029 /* mapLocator */,
+				B0284CD3198496750003EF36 /* mapLocatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0284CD2198496750003EF36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0284CDD198496760003EF36 /* InfoPlist.strings in Resources */,
+				B00EFB7B19849ABD00075C81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0447DCE19816E1700BDA029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07F133E1981B9C20071A653 /* tick_24x24.png in Resources */,
+				B0447DEF19816E1700BDA029 /* Images.xcassets in Resources */,
+				B0447DDE19816E1700BDA029 /* InfoPlist.strings in Resources */,
+				B04D869B198408C40086F976 /* chat_24x24.png in Resources */,
+				B0447DE719816E1700BDA029 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0284CD0198496750003EF36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00EFB7919849A6C00075C81 /* MLLocationListViewControllerTests.m in Sources */,
+				B00EFB811985AA6200075C81 /* MLLocationEditorViewControllerTests.m in Sources */,
+				B00EFB7F19859EBB00075C81 /* MLCoreDataTests.m in Sources */,
+				B0F0443D19869F2B002E52FE /* MLLocationViewerViewControllerTests.m in Sources */,
+				B00EFB7A19849A7000075C81 /* LocationTests.m in Sources */,
+				B0284CDF198496760003EF36 /* mapLocatorTests.m in Sources */,
+				B00EFB7D19858FFC00075C81 /* MLLocationMapViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0447DCC19816E1700BDA029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07F133119817BDE0071A653 /* MLData.xcdatamodeld in Sources */,
+				B0447DEA19816E1700BDA029 /* MLLocationListViewController.m in Sources */,
+				B0447DE019816E1700BDA029 /* main.m in Sources */,
+				B07F139A198205280071A653 /* Location.m in Sources */,
+				B07F134A1981F8600071A653 /* MLLocationViewerViewController.m in Sources */,
+				B07F1329198178AB0071A653 /* MLLocationMapViewController.m in Sources */,
+				B07F13371981AD040071A653 /* MLLocationEditorViewController.m in Sources */,
+				B0447DE419816E1700BDA029 /* MLAppDelegate.m in Sources */,
+				B0F044401986B282002E52FE /* MLLocations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0284CE2198496760003EF36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0447DCF19816E1700BDA029 /* mapLocator */;
+			targetProxy = B0284CE1198496760003EF36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0284CDB198496760003EF36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0284CDC198496760003EF36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0447DDC19816E1700BDA029 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0447DDD19816E1700BDA029 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0447DE519816E1700BDA029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0447DE619816E1700BDA029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0284CE4198496760003EF36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mapLocator.app/mapLocator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mapLocatorTests/mapLocatorTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "mapLocatorTests/mapLocatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B0284CE5198496760003EF36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mapLocator.app/mapLocator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mapLocatorTests/mapLocatorTests-Prefix.pch";
+				INFOPLIST_FILE = "mapLocatorTests/mapLocatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		B0447E0319816E1700BDA029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B0447E0419816E1700BDA029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0447E0619816E1700BDA029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mapLocator/mapLocator-Prefix.pch";
+				INFOPLIST_FILE = "mapLocator/mapLocator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0447E0719816E1700BDA029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mapLocator/mapLocator-Prefix.pch";
+				INFOPLIST_FILE = "mapLocator/mapLocator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0284CE3198496760003EF36 /* Build configuration list for PBXNativeTarget "mapLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0284CE4198496760003EF36 /* Debug */,
+				B0284CE5198496760003EF36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0447DCB19816E1700BDA029 /* Build configuration list for PBXProject "mapLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0447E0319816E1700BDA029 /* Debug */,
+				B0447E0419816E1700BDA029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0447E0519816E1700BDA029 /* Build configuration list for PBXNativeTarget "mapLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0447E0619816E1700BDA029 /* Debug */,
+				B0447E0719816E1700BDA029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B07F132F19817BDE0071A653 /* MLData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B07F133019817BDE0071A653 /* MLData.xcdatamodel */,
+			);
+			currentVersion = B07F133019817BDE0071A653 /* MLData.xcdatamodel */;
+			name = MLData.xcdatamodeld;
+			path = ../MLData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0447DC819816E1700BDA029 /* Project object */;
+}
